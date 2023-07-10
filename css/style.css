@@ -1,0 +1,265 @@
+/* =======================================================
+*
+* 	Estilo CSS -
+*
+* ======================================================= */
+  body {
+    font-family: "Space Mono", Arial, serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #4d4d4d;
+    background: #2c372d; /*#252525*/
+  }
+
+  .pg-header{
+    align-items: center;
+    display: flexbox;
+    
+  }
+
+  .cabecalho-externo {
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+  .profile{
+    border-radius: 50%;
+    width: 20rem;
+    display: block;
+    margin: 0 auto;
+   
+  }
+
+  p {
+    margin-bottom: 50px;
+  }
+
+  .lista-icons{
+    display: inline-flex;
+  
+
+  }
+
+  #page {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    text-align: center;
+    height: 650px;
+    background-color: rgb(122, 30, 71);
+  }
+
+
+  h1, h2, h3, h4, h5, h6{
+    color: #e4e4e4;
+    font-family: "Space Mono", Arial, serif;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .cabecalho-externo,
+   .text-center{
+    margin-right: 25px; /* Espaço entre elementos */
+    margin-left: 25px;
+    align-items: center;
+  }
+  
+  /* - Icons - */
+
+  .social-icons{
+    margin-top: 430px;
+    display: inline-flex; 
+  }
+
+  .icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    margin-top: 50%;
+    margin-right: 10px; /* Espaço entre elementos */
+    margin-left: 40px;
+  }
+
+  .info-texto1,
+  .nome-texto1{
+    text-align: center;
+  }
+
+  
+  .icon-linkdin {
+    background-image: url('/unidade-i/atividades-nao-avaliativas/projeto-i-cv-online/icones/icon-linkdin.svg');
+    
+  }
+  
+  .icon-instagram {
+    background-image: url('/unidade-i/atividades-nao-avaliativas/projeto-i-cv-online/icones/icon-instagram.svg');
+  }
+
+  .icon-github {
+    background-image: url('/unidade-i/atividades-nao-avaliativas/projeto-i-cv-online/icones/icon-github.svg');
+  }
+
+
+.social-icons-pg2{
+    margin-top: -5%;
+  }
+    
+  /* - COLUNAS - */
+
+.bloco-2{
+    column-count: 2; /* Número de colunas */
+   
+}
+
+.bloco3{
+  display: flexbox;
+}
+
+.coluna-tags{
+column-count: 4;
+display: table-cell;
+
+}
+
+.text-stack{
+text-align: justify;
+
+}
+
+.coluna-geral{
+column-count: 4;
+display: table-cell;
+color: #dbdbdb;
+
+
+}
+
+.bloco-experiencias{
+  padding: 200px;
+  display: flexbox;
+  background-color: #a5c487;
+}
+
+.row-externa{
+  display: flexbox;
+
+}
+
+.resume-sessao {
+	overflow: hidden; /* esconde o conteúdo que transborda */
+	margin-top: -90px; /* adicione margem superior para separar da seção anterior */
+	margin-bottom: 10px; /* adicione margem inferior para separar da próxima seção */
+}
+
+
+
+.container-resume{
+  display: flex;
+ 
+}
+
+.col-3{
+margin-right: 10%; /* Espaço entre elementos */
+margin-left: 10%;
+align-items: center;
+text-align: center;
+margin-top: 40%;
+
+}
+
+.icon-stack{
+border-radius: 60%;
+align-items: center;
+
+}
+
+#icon-stacks{
+  align-items: center;
+
+}
+.icon-externo{
+align-items: center;
+}
+
+
+.icon-stack{
+  background-color: #bfbfbf;
+  align-items: center;
+  margin-right: 1%;
+}
+
+.icon-html{
+  background-image: url('/unidade-i/atividades-nao-avaliativas/projeto-i-cv-online/icones/icon-html.png');
+}
+
+
+
+
+
+   /* - BLOCO DA SESSÃO III - */
+
+.central{
+    background-color:rgb(122, 30, 71);
+    padding: 200px;
+    display: flexbox;
+}
+
+.bloco-text-central{
+  overflow: hidden;
+  color: #bfbfbf;
+  margin-top: -10%;
+  margin-bottom: -10%;
+  text-align: center;
+}
+
+   /* - BLOCO FORMULARIO - */
+
+.bloco-img-esq {
+  column-count: 2;
+}
+
+
+ /* - FORM - */
+.formulario{
+display: flexbox;
+margin-left: 10%;
+align-items: center;
+}
+
+
+ 
+
+  /* - FOOTER - */
+
+
+footer{
+  position: relative;
+  text-align: center;
+  padding: 5px;
+  background-color: #f1f1f1;
+  
+}
+
+.bt-do-form,
+.col-msg-12,
+.col-bt-submit{
+  border-radius: 10%;
+  padding: 4px;
+  background-color: #cbcbcb;
+ 
+}
+
+ /* - MIDIA QUERIES - */
+
