@@ -99,16 +99,16 @@
 
   
   .icon-linkdin {
-    background-image: url('/unidade-i/atividades-nao-avaliativas/projeto-i-cv-online/icones/icon-linkdin.svg');
+    background-image: src('');
     
   }
   
   .icon-instagram {
-    background-image: url('/unidade-i/atividades-nao-avaliativas/projeto-i-cv-online/icones/icon-instagram.svg');
+    background-image: url('');
   }
 
   .icon-github {
-    background-image: url('/unidade-i/atividades-nao-avaliativas/projeto-i-cv-online/icones/icon-github.svg');
+    background-image: url('');
   }
 
 
